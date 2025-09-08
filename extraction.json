@@ -1,0 +1,36 @@
+[
+  {
+    "file": "sample.txt",
+    "sent_idx": 0,
+    "sentence": "aspirin may cause bleeding in some patients.",
+    "drugs": [
+      "aspirin"
+    ],
+    "events": [
+      "bleeding"
+    ]
+  },
+  {
+    "file": "sample.txt",
+    "sent_idx": 1,
+    "sentence": "paracetamol is usually safe, but can cause a rash.",
+    "drugs": [
+      "paracetamol"
+    ],
+    "events": [
+      "rash"
+    ]
+  },
+  {
+    "file": "sample.txt",
+    "sent_idx": 2,
+    "sentence": "ibuprofen was associated with nausea and headache.",
+    "drugs": [
+      "ibuprofen"
+    ],
+    "events": [
+      "nausea",
+      "headache"
+    ]
+  }
+]
