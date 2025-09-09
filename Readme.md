@@ -1,4 +1,4 @@
-### *Person 1*
+### *Person 1* 
 
 * Collect a small dataset (FAERS CSV + PubMed abstracts).
 * Write script to clean text (lowercase, remove symbols, sentence split with SpaCy).
@@ -63,5 +63,5 @@
 ---
 
 
-
+### Final Flow
 * Data → NER → Classification → API → UI → Stats.
