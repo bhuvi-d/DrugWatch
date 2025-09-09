@@ -1,0 +1,80 @@
+1. Paediatr Drugs. 2023 Mar;25(2):203-215. doi: 10.1007/s40272-022-00540-z. Epub 
+2022 Nov 12.
+
+Adverse Drug Reactions in Children: Comparison of Reports Collected in a 
+Pharmacovigilance Project Versus Spontaneously Collected ADR Reports.
+
+Leitzen S(#)(1)(2)(3), Dubrall D(#)(4)(5), Toni I(6), Stingl J(7), Christ 
+P(1)(3), Köberle U(8), Schmid M(3), Neubert A(6), Sachs B(#)(1)(9).
+
+Author information:
+(1)Research Division, Federal Institute for Drugs and Medical Devices, Bonn, 
+Germany.
+(2)Department of Physics, Chemistry and Pharmacy, University of Southern 
+Denmark, Odense, Denmark.
+(3)Institute for Medical Biometry, Informatics and Epidemiology, University 
+Hospital of Bonn, Bonn, Germany.
+(4)Research Division, Federal Institute for Drugs and Medical Devices, Bonn, 
+Germany. Diana.Dubrall@bfarm.de.
+(5)Institute for Medical Biometry, Informatics and Epidemiology, University 
+Hospital of Bonn, Bonn, Germany. Diana.Dubrall@bfarm.de.
+(6)Department of Paediatrics and Adolescent Medicine, Universitätsklinikum 
+Erlangen, Erlangen, Germany.
+(7)Institute of Clinical Pharmacology, University Hospital of the RWTH Aachen, 
+Aachen, Germany.
+(8)Drug Commission of the German Medical Association, Berlin, Germany.
+(9)Department for Dermatology and Allergy, University Hospital Aachen, Aachen, 
+Germany.
+(#)Contributed equally
+
+BACKGROUND: Adverse drug reactions (ADRs) and medication errors in children may 
+result from a lack of appropriate drugs, dosages, and pharmaceutical forms. In 
+addition, children may respond differently to drugs than adults. Reporting of 
+ADRs in the pediatric population is therefore of importance in order to increase 
+the amount of safety data. However, different methodological approaches are used 
+to collect ADRs.
+OBJECTIVE: The aim of the present study was to analyze whether there were 
+differences in the ADRs collected in the KiDSafe project (845 ADR reports) 
+compared with the spontaneous ADR reports sent to EudraVigilance (697 reports) 
+in the same time period. The strengths and limitations of these two different 
+approaches should be discussed.
+METHODS: The same inclusion criteria were applied for the systematically 
+collected ADRs in the KiDSafe project and the spontaneous reports from 
+EudraVigilance, and only reports of ADRs coded with hospitalization were 
+considered. In both datasets, the number of reports (related to number of 
+hospitals), their documentation quality (VigiGrade), causal relationship (World 
+Health Organization-Uppsala Monitoring Centre [WHO-UMC] criteria), most 
+frequently reported drugs and ADRs, demographical parameters of the patients, 
+reported medical histories, and the seriousness of ADR reports were analyzed 
+descriptively. The results of the two analyses were compared.
+RESULTS: There was considerable underreporting of ADRs via the spontaneous 
+reports (0.4 reports per hospital; 697/1902) compared with 70.4 reports per 
+hospital (845/12) in the systematically collected KiDSafe reports. Documentation 
+quality assessment yielded similar results in both datasets. Among the 10 most 
+frequently reported drugs, anticonvulsants such as levetiracetam (6.6%), 
+valproic acid (5.6%), oxcarbazepine (3.6%), and lamotrigine (3.4%) were mainly 
+reported in the KiDSafe reports, while in the EudraVigilance reports, mite 
+allergen extract (4.4%) and allergens (3.6%) were preferentially reported. 
+Seizures were the most frequently reported clinically specific ADRs in the 
+KiDSafe reports, whereas anaphylactic reactions and urticaria were prominent in 
+the spontaneous reports from EudraVigilance. Notably, the proportion of reports 
+referring to medication errors and other medication safety related issues were 
+more prominent in KiDSafe than in the spontaneous reports (27.8% vs. 12.6% and 
+46.0% vs. 29.0%, respectively).
+CONCLUSION: In general, reports from both data sources contributed to the 
+identification of ADRs and dedicated issues related to drug therapy. However, 
+these differed by nature and strength of the signal, likely due to the 
+characteristics of the individual method. A combined approach could likely 
+compensate for limitations inherent to the single approaches, but will most 
+likely only be applied to dedicated pharmacovigilance topics or research 
+objectives.
+
+© 2022. The Author(s).
+
+DOI: 10.1007/s40272-022-00540-z
+PMCID: PMC9931796
+PMID: 36369590 [Indexed for MEDLINE]
+
+Conflict of interest statement: Sarah Leitzen, Diana Dubrall, Irmgard Toni, 
+Julia Stingl, Patrick Christ, Ursula Köberle, Matthias Schmid, Antje Neubert, 
+and Bernhardt Sachs have no conflicts of interest to declare.
