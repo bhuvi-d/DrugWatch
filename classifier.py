@@ -4,21 +4,23 @@ from pathlib import Path
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
-BASE = Path(__file__).resolve().parents[1]
-EXTRACT_FILE = BASE / "results" / "extractions.json"
+# Note: The original EXTRACT_FILE path has been changed to use the uploaded JSON file.
+# Since the original file 'extractions.json' was not provided, we will use 'drug_to_effects.json'.
+EXTRACT_FILE = Path("drug_to_effects.json")
 
 
-# ---- STEP 1: Load sentences from extraction
-def load_sentences_from_extraction():
+# ---- STEP 1: Load sentences from the JSON file ----
+def load_sentences_from_person2():
+    sentences = []
+    # The uploaded file has a dictionary structure, not a list of dictionaries.
+    # We will extract all the effects listed in the values.
     with open(EXTRACT_FILE, "r", encoding="utf8") as f:
         data = json.load(f)
-    # Combine sentence with its extracted drugs/events for richer features
-    sentences = []
-    for item in data:
-        drugs = " ".join(item.get("drugs", []))
-        events = " ".join(item.get("events", []))
-        combined = f"{item['sentence']} {drugs} {events}".strip()
-        sentences.append(combined)
+    for effects_list in data.values():
+        for sentence in effects_list:
+            # Filter out any empty strings that may be present in the lists.
+            if sentence.strip():
+                sentences.append(sentence.strip())
     return sentences
 
 
@@ -48,8 +50,12 @@ def classify_sentence(text: str):
     return "ADE" if label == 1 else "Non-ADE", round(confidence, 3)
 
 
+# ---- STEP 4: Example usage ----
 if __name__ == "__main__":
-    sentences = load_sentences_from_extraction()
-    for s in sentences:
+    sentences = load_sentences_from_person2()
+    # For demonstration, we'll only classify the first 10 sentences
+    # to provide a concise output.
+    for s in sentences[:10]:
         label, conf = classify_sentence(s)
         print(f"{s}  --> {label} (conf={conf})")
+    
