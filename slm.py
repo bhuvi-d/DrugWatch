@@ -3,7 +3,7 @@ from pathlib import Path
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
-EXTRACT_FILE = Path("extraction.json")
+EXTRACT_FILE = Path("dataset.json")
 
 def load_sentences_from_person2():
     with open(EXTRACT_FILE, "r", encoding="utf8") as f:
@@ -43,3 +43,4 @@ if __name__ == "__main__":
     for s in sentences:
         label, conf = classify_sentence(s)
         print(f"{s}  --> {label} (conf={conf})")
+
